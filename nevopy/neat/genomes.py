@@ -33,7 +33,7 @@ import os
 from typing import Any, cast, Dict, List, Optional, Sequence, Tuple
 
 import numpy as np
-np.warnings.filterwarnings("ignore", category=np.VisibleDeprecationWarning) \
+# np.warnings.filterwarnings("ignore", category=np.VisibleDeprecationWarning) \
     # pylint: disable=wrong-import-position
 from tensorflow import reshape
 
