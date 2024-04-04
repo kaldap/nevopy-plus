@@ -41,13 +41,12 @@ short_description = "An open source neuroevolution framework for Python."
 # The compatible release operator (`~=`) is used to match any candidate version
 # that is expected to be compatible with the specified version.
 REQUIRED_PACKAGES = [
-    "Columnar ~= 1.4.1",
-    "gym ~= 0.26.2",
-    "matplotlib ~= 3.8.1",
-    "networkx ~= 3.2.1",
-    "numpy ~= 1.23.1",
-    "ray ~= 2.9.1",
-    "tensorflow == 2.11.0",
+    "gym == 0.26.2",
+    "matplotlib == 3.8.1",
+    "networkx == 3.2.1",
+    "numpy == 1.23.1",
+    "ray == 2.9.1",
+    "tensorflow == 2.15.0",
 ]
 
 # Packages which are only needed for testing code.
@@ -81,6 +80,8 @@ setuptools.setup(
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
         "Intended Audience :: Developers",
